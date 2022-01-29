@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Cryptonite_Example' do
+  pod 'Cryptonite', :path => '../'
+
+  target 'Cryptonite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
