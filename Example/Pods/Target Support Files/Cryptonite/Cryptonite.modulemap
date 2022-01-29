@@ -1,0 +1,6 @@
+framework module Cryptonite {
+  umbrella header "Cryptonite-umbrella.h"
+
+  export *
+  module * { export * }
+}

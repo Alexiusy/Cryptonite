@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cryptonite
 
 class ViewController: UIViewController {
 

@@ -1,0 +1,6 @@
+framework module Pods_Cryptonite_Tests {
+  umbrella header "Pods-Cryptonite_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

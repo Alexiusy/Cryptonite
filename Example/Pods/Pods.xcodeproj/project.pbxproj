@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130A7DC5060EB2FCCF32B9F35D15B894 /* Pods-Cryptonite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D86D9D8C217B4E3A38A6452235F86C /* Pods-Cryptonite_Example-dummy.m */; };
+		13BCED4BC83947A5B72B5DF07C61AFFF /* Cryptonite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F93635DB581A1078BB5C8440CEF393B /* Cryptonite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5E203EC7BBEA914B4B7158397128E9 /* Pods-Cryptonite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FDA3A1316304C742CAEB5DE03B4B3 /* Pods-Cryptonite_Tests-dummy.m */; };
+		3F6E0C793551FE772F5CF4201C5AF92F /* CryptoAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FD405FB98103CB45A553BFC2E69FD /* CryptoAlgorithm.swift */; };
+		4373E55CD258FF8C75B6684EDD99E774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		497DE91A0E412EB31B6F9413B503138B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3E72A33BFB9AF190FE7E8A4C0800E25 /* Cryptonite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0EE4E67FB8CFC0A18C3D3809B064C /* Cryptonite-dummy.m */; };
+		CBD375C29D1D2C1217A6F58E599EAF5F /* Pods-Cryptonite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FC877E388328C2B0E49BFB61382EA3 /* Pods-Cryptonite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE50695A6C7DC7BBEF59AE4E0DB1DED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF9B0D4E15F61A6BE12F9E54BE07751C /* Pods-Cryptonite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF75A2E69BF5F5F813762DC3A4221B23 /* Pods-Cryptonite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BD4E7F1C953327047204E55FA4A46D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1016F7715138D8BD8057EBD45EBDE7;
+			remoteInfo = Cryptonite;
+		};
+		9D0346C9784C9B2D1F8FA5DDCC725BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F17880AC50136EAE263EDD8A15AD6C5;
+			remoteInfo = "Pods-Cryptonite_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FDFDA7968C5815335C0B43B404DEA7 /* Pods-Cryptonite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cryptonite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15FC877E388328C2B0E49BFB61382EA3 /* Pods-Cryptonite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cryptonite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E9942692C582960A2EC74282E9DEF06 /* Pods-Cryptonite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAD642B35CFC264375535BCEAC39339 /* Cryptonite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cryptonite-prefix.pch"; sourceTree = "<group>"; };
+		2C2D45DD3658FB8FC04D364A620ADB4A /* Pods-Cryptonite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cryptonite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39ACFBCCB28F7632A3DD2E37F1038A53 /* Cryptonite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cryptonite.release.xcconfig; sourceTree = "<group>"; };
+		3B8EA4DF87C85A7CD9B6B7AAFF23135E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		47371E47A75514E24D008C8B5CB611D6 /* Pods-Cryptonite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cryptonite_Example-frameworks.sh"; sourceTree = "<group>"; };
+		490A45654BC8282821A4D537685FF661 /* Pods-Cryptonite_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cryptonite_Tests"; path = Pods_Cryptonite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504553BA66011E994D66A9F9484817FB /* Pods-Cryptonite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cryptonite_Tests.modulemap"; sourceTree = "<group>"; };
+		51A39D92FBD6965AD904B1439E623B25 /* Pods-Cryptonite_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cryptonite_Example"; path = Pods_Cryptonite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D86D9D8C217B4E3A38A6452235F86C /* Pods-Cryptonite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cryptonite_Example-dummy.m"; sourceTree = "<group>"; };
+		72E08700C80C521E3D638AA2E7EB87C1 /* Cryptonite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cryptonite.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		862D70F02C0DD7240630A68487B77F49 /* Cryptonite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cryptonite.debug.xcconfig; sourceTree = "<group>"; };
+		89902E60C238A210E35513D736A00915 /* Cryptonite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cryptonite-Info.plist"; sourceTree = "<group>"; };
+		8D41E7B4E0498DF118D742F8D80B16B8 /* Pods-Cryptonite_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite_Example-Info.plist"; sourceTree = "<group>"; };
+		8E4FD405FB98103CB45A553BFC2E69FD /* CryptoAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoAlgorithm.swift; path = Cryptonite/Classes/CryptoAlgorithm.swift; sourceTree = "<group>"; };
+		938B8B060A5D811C00F7A65113C3C811 /* Pods-Cryptonite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		951D2437083533B9667CD18191933468 /* Pods-Cryptonite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F93635DB581A1078BB5C8440CEF393B /* Cryptonite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cryptonite-umbrella.h"; sourceTree = "<group>"; };
+		B5AD6CA5839D2B2E1C4B64E1D47C25FB /* Pods-Cryptonite_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite_Tests-Info.plist"; sourceTree = "<group>"; };
+		B6A1C4234F3360C6D3AC997AB4D9BDE9 /* Pods-Cryptonite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cryptonite_Example.modulemap"; sourceTree = "<group>"; };
+		B7A334D092096B1D517E634BA584E6AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9C1CB2E6AE576CCAAEBEFF19157751A /* Pods-Cryptonite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C41FDA3A1316304C742CAEB5DE03B4B3 /* Pods-Cryptonite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cryptonite_Tests-dummy.m"; sourceTree = "<group>"; };
+		CC8CA69FE4D107AB62FC5523023FAE0E /* Pods-Cryptonite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cryptonite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF75A2E69BF5F5F813762DC3A4221B23 /* Pods-Cryptonite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cryptonite_Example-umbrella.h"; sourceTree = "<group>"; };
+		DE826DFA4A3E3C95F34538EC2DC0204C /* Pods-Cryptonite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cryptonite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0A0EE4E67FB8CFC0A18C3D3809B064C /* Cryptonite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cryptonite-dummy.m"; sourceTree = "<group>"; };
+		E7AA82257A8FF364122E8BAB10130256 /* Cryptonite */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cryptonite; path = Cryptonite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82B40DE3032D722FFB16DE074733843 /* Cryptonite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Cryptonite.podspec; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2058C2A2B374CE3835DABA4FA0E46724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50695A6C7DC7BBEF59AE4E0DB1DED9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BFC5526360B511CD2FFB40C82C8F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4373E55CD258FF8C75B6684EDD99E774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB96E60026C572A9A85F8FE655AAE3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497DE91A0E412EB31B6F9413B503138B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B12D40A5BC903A58509C4BE6665FFCC /* Cryptonite */ = {
+			isa = PBXGroup;
+			children = (
+				8E4FD405FB98103CB45A553BFC2E69FD /* CryptoAlgorithm.swift */,
+				5B5244D9ABEFA84A01CF659915235C3F /* Pod */,
+				9A122B4DF70890568E03AB86C56320EE /* Support Files */,
+			);
+			name = Cryptonite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A162D541AB7940A8DA52BA24B2DC057 /* Pods-Cryptonite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6A1C4234F3360C6D3AC997AB4D9BDE9 /* Pods-Cryptonite_Example.modulemap */,
+				2C2D45DD3658FB8FC04D364A620ADB4A /* Pods-Cryptonite_Example-acknowledgements.markdown */,
+				DE826DFA4A3E3C95F34538EC2DC0204C /* Pods-Cryptonite_Example-acknowledgements.plist */,
+				55D86D9D8C217B4E3A38A6452235F86C /* Pods-Cryptonite_Example-dummy.m */,
+				47371E47A75514E24D008C8B5CB611D6 /* Pods-Cryptonite_Example-frameworks.sh */,
+				8D41E7B4E0498DF118D742F8D80B16B8 /* Pods-Cryptonite_Example-Info.plist */,
+				CF75A2E69BF5F5F813762DC3A4221B23 /* Pods-Cryptonite_Example-umbrella.h */,
+				1E9942692C582960A2EC74282E9DEF06 /* Pods-Cryptonite_Example.debug.xcconfig */,
+				CC8CA69FE4D107AB62FC5523023FAE0E /* Pods-Cryptonite_Example.release.xcconfig */,
+			);
+			name = "Pods-Cryptonite_Example";
+			path = "Target Support Files/Pods-Cryptonite_Example";
+			sourceTree = "<group>";
+		};
+		453AB207A82E86EB5F74CF46353D603C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B12D40A5BC903A58509C4BE6665FFCC /* Cryptonite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B5244D9ABEFA84A01CF659915235C3F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F82B40DE3032D722FFB16DE074733843 /* Cryptonite.podspec */,
+				3B8EA4DF87C85A7CD9B6B7AAFF23135E /* LICENSE */,
+				B7A334D092096B1D517E634BA584E6AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9A122B4DF70890568E03AB86C56320EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72E08700C80C521E3D638AA2E7EB87C1 /* Cryptonite.modulemap */,
+				E0A0EE4E67FB8CFC0A18C3D3809B064C /* Cryptonite-dummy.m */,
+				89902E60C238A210E35513D736A00915 /* Cryptonite-Info.plist */,
+				2AAD642B35CFC264375535BCEAC39339 /* Cryptonite-prefix.pch */,
+				9F93635DB581A1078BB5C8440CEF393B /* Cryptonite-umbrella.h */,
+				862D70F02C0DD7240630A68487B77F49 /* Cryptonite.debug.xcconfig */,
+				39ACFBCCB28F7632A3DD2E37F1038A53 /* Cryptonite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Cryptonite";
+			sourceTree = "<group>";
+		};
+		BA13B20AEE70BA44C2A45827173086BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A162D541AB7940A8DA52BA24B2DC057 /* Pods-Cryptonite_Example */,
+				E1FBBCB2F788FCA462F765E83F7D2D4C /* Pods-Cryptonite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C50263A48D9A1DBB152D59C0C8D0753D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA82257A8FF364122E8BAB10130256 /* Cryptonite */,
+				51A39D92FBD6965AD904B1439E623B25 /* Pods-Cryptonite_Example */,
+				490A45654BC8282821A4D537685FF661 /* Pods-Cryptonite_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				453AB207A82E86EB5F74CF46353D603C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C50263A48D9A1DBB152D59C0C8D0753D /* Products */,
+				BA13B20AEE70BA44C2A45827173086BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FBBCB2F788FCA462F765E83F7D2D4C /* Pods-Cryptonite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				504553BA66011E994D66A9F9484817FB /* Pods-Cryptonite_Tests.modulemap */,
+				10FDFDA7968C5815335C0B43B404DEA7 /* Pods-Cryptonite_Tests-acknowledgements.markdown */,
+				938B8B060A5D811C00F7A65113C3C811 /* Pods-Cryptonite_Tests-acknowledgements.plist */,
+				C41FDA3A1316304C742CAEB5DE03B4B3 /* Pods-Cryptonite_Tests-dummy.m */,
+				B5AD6CA5839D2B2E1C4B64E1D47C25FB /* Pods-Cryptonite_Tests-Info.plist */,
+				15FC877E388328C2B0E49BFB61382EA3 /* Pods-Cryptonite_Tests-umbrella.h */,
+				B9C1CB2E6AE576CCAAEBEFF19157751A /* Pods-Cryptonite_Tests.debug.xcconfig */,
+				951D2437083533B9667CD18191933468 /* Pods-Cryptonite_Tests.release.xcconfig */,
+			);
+			name = "Pods-Cryptonite_Tests";
+			path = "Target Support Files/Pods-Cryptonite_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7DD086F2F9DD09E7424F0738FC4D619B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9B0D4E15F61A6BE12F9E54BE07751C /* Pods-Cryptonite_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A141590773A20C869C1D4DF63C8A31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BCED4BC83947A5B72B5DF07C61AFFF /* Cryptonite-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABC73ABF87E42189A0EC103AF0F3EEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD375C29D1D2C1217A6F58E599EAF5F /* Pods-Cryptonite_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F1016F7715138D8BD8057EBD45EBDE7 /* Cryptonite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10F500B7AC3F7DA4DE029BF188BE42B /* Build configuration list for PBXNativeTarget "Cryptonite" */;
+			buildPhases = (
+				93A141590773A20C869C1D4DF63C8A31 /* Headers */,
+				F77DD34AFDAACDCA7257652B5B50F563 /* Sources */,
+				41BFC5526360B511CD2FFB40C82C8F0C /* Frameworks */,
+				04D44C9DC11D482F05E819624D8F1965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryptonite;
+			productName = Cryptonite;
+			productReference = E7AA82257A8FF364122E8BAB10130256 /* Cryptonite */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F17880AC50136EAE263EDD8A15AD6C5 /* Pods-Cryptonite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F77838E25AD0CBEAE946521DC9B428 /* Build configuration list for PBXNativeTarget "Pods-Cryptonite_Example" */;
+			buildPhases = (
+				7DD086F2F9DD09E7424F0738FC4D619B /* Headers */,
+				E40287F426341D8BD7E68E509492209C /* Sources */,
+				FB96E60026C572A9A85F8FE655AAE3BE /* Frameworks */,
+				FC4258D2B831ABD3AFE72FE7E80247FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0D3C316127DEE18BCAA268E59AB37E /* PBXTargetDependency */,
+			);
+			name = "Pods-Cryptonite_Example";
+			productName = Pods_Cryptonite_Example;
+			productReference = 51A39D92FBD6965AD904B1439E623B25 /* Pods-Cryptonite_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4BF6C475EA06332C16CFE10B3703A6D /* Pods-Cryptonite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815FFED85DF7B54D50A001F2FA08D374 /* Build configuration list for PBXNativeTarget "Pods-Cryptonite_Tests" */;
+			buildPhases = (
+				BABC73ABF87E42189A0EC103AF0F3EEB /* Headers */,
+				8F95762D5BDCF6B154CC88A9B9ADD8EC /* Sources */,
+				2058C2A2B374CE3835DABA4FA0E46724 /* Frameworks */,
+				89510F55ACD7004856CEABF8C52B5828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8FCE473BAB4A0F02BB0A32999FF4C74 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cryptonite_Tests";
+			productName = Pods_Cryptonite_Tests;
+			productReference = 490A45654BC8282821A4D537685FF661 /* Pods-Cryptonite_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C50263A48D9A1DBB152D59C0C8D0753D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1016F7715138D8BD8057EBD45EBDE7 /* Cryptonite */,
+				6F17880AC50136EAE263EDD8A15AD6C5 /* Pods-Cryptonite_Example */,
+				F4BF6C475EA06332C16CFE10B3703A6D /* Pods-Cryptonite_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D44C9DC11D482F05E819624D8F1965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89510F55ACD7004856CEABF8C52B5828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4258D2B831ABD3AFE72FE7E80247FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F95762D5BDCF6B154CC88A9B9ADD8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5E203EC7BBEA914B4B7158397128E9 /* Pods-Cryptonite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40287F426341D8BD7E68E509492209C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130A7DC5060EB2FCCF32B9F35D15B894 /* Pods-Cryptonite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77DD34AFDAACDCA7257652B5B50F563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E0C793551FE772F5CF4201C5AF92F /* CryptoAlgorithm.swift in Sources */,
+				A3E72A33BFB9AF190FE7E8A4C0800E25 /* Cryptonite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0D3C316127DEE18BCAA268E59AB37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cryptonite;
+			target = 1F1016F7715138D8BD8057EBD45EBDE7 /* Cryptonite */;
+			targetProxy = 6BD4E7F1C953327047204E55FA4A46D0 /* PBXContainerItemProxy */;
+		};
+		B8FCE473BAB4A0F02BB0A32999FF4C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cryptonite_Example";
+			target = 6F17880AC50136EAE263EDD8A15AD6C5 /* Pods-Cryptonite_Example */;
+			targetProxy = 9D0346C9784C9B2D1F8FA5DDCC725BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DB6F1260E148E57DBC8F980ABF3C47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39ACFBCCB28F7632A3DD2E37F1038A53 /* Cryptonite.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cryptonite/Cryptonite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cryptonite/Cryptonite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cryptonite/Cryptonite.modulemap";
+				PRODUCT_MODULE_NAME = Cryptonite;
+				PRODUCT_NAME = Cryptonite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E1435F50C708B6BF32C8A23A867A0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8CA69FE4D107AB62FC5523023FAE0E /* Pods-Cryptonite_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite_Example/Pods-Cryptonite_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite_Example/Pods-Cryptonite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F6D613B9DFE2FC014EDF2A59A58E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C1CB2E6AE576CCAAEBEFF19157751A /* Pods-Cryptonite_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite_Tests/Pods-Cryptonite_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite_Tests/Pods-Cryptonite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		713743E7F8EE16787AF6D1B652E54CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862D70F02C0DD7240630A68487B77F49 /* Cryptonite.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cryptonite/Cryptonite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cryptonite/Cryptonite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cryptonite/Cryptonite.modulemap";
+				PRODUCT_MODULE_NAME = Cryptonite;
+				PRODUCT_NAME = Cryptonite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEB1506ED85CFD0DF1111A54A90C3A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9942692C582960A2EC74282E9DEF06 /* Pods-Cryptonite_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite_Example/Pods-Cryptonite_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite_Example/Pods-Cryptonite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D556777C2602013DF47C9920B6EBA994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951D2437083533B9667CD18191933468 /* Pods-Cryptonite_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cryptonite_Tests/Pods-Cryptonite_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cryptonite_Tests/Pods-Cryptonite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815FFED85DF7B54D50A001F2FA08D374 /* Build configuration list for PBXNativeTarget "Pods-Cryptonite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6D613B9DFE2FC014EDF2A59A58E9AB /* Debug */,
+				D556777C2602013DF47C9920B6EBA994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10F500B7AC3F7DA4DE029BF188BE42B /* Build configuration list for PBXNativeTarget "Cryptonite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713743E7F8EE16787AF6D1B652E54CF1 /* Debug */,
+				1DB6F1260E148E57DBC8F980ABF3C47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F77838E25AD0CBEAE946521DC9B428 /* Build configuration list for PBXNativeTarget "Pods-Cryptonite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB1506ED85CFD0DF1111A54A90C3A8D /* Debug */,
+				4E1435F50C708B6BF32C8A23A867A0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

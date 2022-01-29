@@ -1,0 +1,16 @@
+PODS:
+  - Cryptonite (0.1.0)
+
+DEPENDENCIES:
+  - Cryptonite (from `../`)
+
+EXTERNAL SOURCES:
+  Cryptonite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cryptonite: 5039a82a2622d707b0cb9d01d63fbc8fa2c7c1b3
+
+PODFILE CHECKSUM: e3c2ad6a89628363b79f1c4952e0dbb19455a6e0
+
+COCOAPODS: 1.11.2
